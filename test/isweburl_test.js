@@ -10,7 +10,7 @@
 
 var t = require('chai').assert;
 
-var IsWebURL = require('../lib/IsWebURL.js');
+var IsWebURL = require('..');
 
 describe('IsWebURL', function(){
   it('should return false when the host is local', function(f){

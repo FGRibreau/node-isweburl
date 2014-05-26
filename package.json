@@ -1,7 +1,7 @@
 {
   "name": "isweburl",
   "description": "Check whether or not the provided url refers to a local address or not",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/FGRibreau/node-isweburl",
   "author": {
     "name": "",
@@ -20,7 +20,7 @@
       "url": "https://github.com/FGRibreau/node-isweburl/blob/master/LICENSE"
     }
   ],
-  "main": "lib/isweburl",
+  "main": "index.js",
   "engines": {
       "node": ">= 0.10.26",
       "npm": ">=1.4.3"
