@@ -1,6 +1,6 @@
 # isWebURL [![Build Status](https://drone.io/github.com/FGRibreau/node-isweburl/status.png)](https://drone.io/github.com/FGRibreau/node-isweburl/latest) [![NPM version](https://badge-me.herokuapp.com/api/npm/isweburl.png)](http://badges.enytc.com/for/npm/isweburl) [![Gittip](http://badgr.co/gittip/fgribreau.png)](https://www.gittip.com/fgribreau/)  [![Deps](https://david-dm.org/FGRibreau/node-isweburl.png)](https://david-dm.org/FGRibreau/node-isweburl)
 
-> Check whether or not the provided url refers to a local address or not
+> Check whether or not the provided url refers to a local address (or not)
 
 ![npm](https://nodei.co/npm/isweburl.png)
 
