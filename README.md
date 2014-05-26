@@ -6,24 +6,11 @@
 Install the module with: `npm install isweburl`
 
 ```javascript
-var isweburl = require('isweburl');
-isweburl.awesome(); // "hello "
-```
+var IsWebURL = require('isweburl');
 
-## Documentation
-
-#### .awesome(name)
-
-**Parameter**: `name`
-**Type**: `String`
-**Example**: `Livia`
-
-The 'awesome' method is responsible for showing a name.
-
-How to use this method
-
-```javascript
-isweburl.awesome('livia'); // "hello livia"
+IsWebURL('http://localhost/mypage', function(err, isValid){
+  // isValid true if the url is not a local one (a.k.a referring to a local address)
+});
 ```
 
 ## Contributing
